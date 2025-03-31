@@ -23,7 +23,7 @@ public class BaseClass {
 	public SeleniumUtility sUtil=new SeleniumUtility();
 	public PropertiesUtility pUtil = new PropertiesUtility();
 	public ExcelUtility eUtil= new ExcelUtility();
-	//For makingWebDriver refernc variable as thread safe
+	//For makingWebDriver reference variable as thread safe
 	public static ThreadLocal<WebDriver> driverInstance= new ThreadLocal<>();
 
 	@BeforeSuite(alwaysRun = true)
