@@ -7,7 +7,7 @@ import objectRepo.CreatingNewLeadPage;
 import objectRepo.HomePage;
 import objectRepo.LeadsPage;
 
-public class TC_002 extends BaseClass {
+public class TC_002Test extends BaseClass {
 	
 	@Test(groups= {"Smoke", "Regression"})
 	public void LE_002() throws Exception
